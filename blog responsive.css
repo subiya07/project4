@@ -199,6 +199,10 @@
         line-height: 36px;
     }
 
+    .footer-banner-links3 span {
+        display: none;
+    }
+
     .footer-banner-links0 h4 {
         font-size: 20px;
     }

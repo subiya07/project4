@@ -157,18 +157,6 @@ nav ul li a:hover {
         font-size: 25px;
     }
 
-    /* .ind1 {
-        width: 383px;
-        padding: 45px 35px;
-        border: 2px solid darkblue;
-        border-radius: 10px;
-        text-align: center;
-        height: 40px;
-        outline: none;
-        position: relative;
-        font-size: 20px;
-    } */
-
     i.fa-solid.fa-magnifying-glass {
         transform: translate(-63px, 0px);
         color: #fff;

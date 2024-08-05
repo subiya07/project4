@@ -20,6 +20,11 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .course-pop {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5rem;
+    }
+
     .footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -158,6 +163,9 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .course-pop {
+        grid-template-columns: 1fr 1fr;
+    }
 
     .course-text h2 {
         font-size: 26px;
@@ -203,6 +211,10 @@
 
     .footer-1 span {
         font-size: 15px;
+    }
+
+    .footer-banner-links3 span {
+        display: none;
     }
 
     .footer-2 i {
