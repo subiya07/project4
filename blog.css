@@ -220,6 +220,20 @@ main {
     transform: scale(0.9);
 }
 
+.blog .blog-post:hover .blog-content h3 {
+    color: #fff;
+}
+
+.blog .blog-post:hover .blog-content span {
+    color: rgb(1, 1, 48);
+}
+
+.blog .blog-post:hover .blog-content a {
+    background-color: #fff;
+    color: rgb(1, 1, 48);
+    border: none;
+}
+
 .blog-post {
     background: linear-gradient(45deg, #84ceeb, #0c5470);
     margin: 24px 0;

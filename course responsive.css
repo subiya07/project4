@@ -341,12 +341,18 @@
     }
 
     .course-cat {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+        gap: 0;
+    }
+
+    .course-cat .card {
+        width: 300px;
     }
 
 
     .course-pop {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .course-text h2 {

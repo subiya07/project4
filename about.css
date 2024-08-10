@@ -507,6 +507,7 @@ section::before {
 .mvv-container .mvv-block {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
     justify-items: center;
     align-items: center;
     margin-bottom: 50px;
@@ -526,7 +527,8 @@ section::before {
 }
 
 .mvv-container .mvv-block .mvv-content {
-    width: 80%;
+    width: 500px;
+    padding: 20px;
 }
 
 .mvv-container .mvv-block .mvv-content h1 {
