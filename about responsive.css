@@ -16,6 +16,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .mvv-container .mvv-block {
+        gap: 0;
+    }
+
     .mvv-container .mvv-block .mvv-content p {
         line-height: 29px;
     }
@@ -511,6 +515,11 @@
 
     .mvv-container .mvv-block {
         grid-template-columns: 1fr;
+    }
+
+    .mvv-container .mvv-block .mvv-content {
+        width: 300px;
+        padding: 20px;
     }
 
     .testimonial {

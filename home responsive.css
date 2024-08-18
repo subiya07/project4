@@ -525,7 +525,7 @@
 
     .card-container {
         grid-gap: 4rem;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .tools {
@@ -555,7 +555,7 @@
 
     .menu .menu-box {
         flex-wrap: wrap;
-        gap: 12px;
+        gap: 10px;
     }
 
     .menu .menu-box .menu-card .menu-image {
@@ -703,10 +703,6 @@
         left: 0;
     }
 
-    nav {
-        gap: 0.5rem;
-    }
-
     .logo img {
         width: 192px;
     }
@@ -744,11 +740,11 @@
 
     .box .front-face span,
     .box .back-face span {
-        font-size: 11px;
+        font-size: 20px;
     }
 
     .box .back-face p {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .goals-text h2 {
@@ -759,10 +755,12 @@
 
     .wrapper {
         grid-template-columns: 1fr;
+        padding: 20px;
     }
 
     .Choices {
         width: 100%;
+        padding: 25px;
     }
 
     .choice-container {
@@ -846,14 +844,15 @@
 
     .tools {
         grid-template-columns: 1fr;
+        padding: 25px;
     }
 
     .tool-title {
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .tool-sub-title {
-        font-size: 7px;
+        font-size: 10px;
         margin: 0;
     }
 
@@ -861,6 +860,15 @@
         padding: 5px 14px;
         font-size: 11px;
         width: 98px;
+    }
+
+    .Goal-2 {
+        padding: 20px;
+    }
+
+    .goal-box-2 .goals-card-2 .goal-tit-2 h3 {
+        font-size: 25px;
+        font-weight: 600;
     }
 
     .goals-text2 p {
@@ -879,7 +887,7 @@
     }
 
     .goal-box-2 .goals-card-2 .goal-tit-2 p {
-        font-size: 23px;
+        font-size: 18px;
     }
 
     .menu .menu-box {

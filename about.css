@@ -50,7 +50,7 @@ li.active a {
     color: #fff;
 }
 
-li.active:hover {
+li.active a:hover {
     color: rgb(1, 1, 48);
 }
 
@@ -792,4 +792,17 @@ section::before {
     border: none;
     background-color: rgb(1, 1, 48);
     color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: gainsboro;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #84ceeb, #0c5470);
+    border-radius: 10px;
 }
